@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: url(./assets/background.png);
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+.social-link {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.download-os {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.download-supported {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+    width: 120px;
+    margin: 10px;
+
+    border: 2px solid rgba(255, 255, 255, 0.519);
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.download-supported:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.download-blocked {
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+    width: 120px;
+    margin: 10px;
+
+    border: 2px solid rgba(150, 150, 150, 0.519);
+    border-radius: 7px;
+    background-color: rgba(92, 92, 92, 0.158);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F0F0F0; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CECECE; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #A7A7A7; 
+}
+
+::-moz-selection { /* Code for Firefox */
+    background-color: rgba(104, 231, 254, 0.43);
+}
+  
+::selection {
+    background-color: rgba(104, 231, 254, 0.43);
+}
