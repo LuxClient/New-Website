@@ -15,6 +15,14 @@ h2 {
     text-align: center;
 }
 
+p {
+    margin: 8px;
+}
+
+a {
+    color: rgb(35, 145, 255);
+}
+
 .head {
     display: flex;
     flex-direction: column;
@@ -81,6 +89,14 @@ h2 {
     border: 2px solid rgba(150, 150, 150, 0.519);
     border-radius: 7px;
     background-color: rgba(92, 92, 92, 0.158);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 227, 89, 0.252);
 }
 
 ::-webkit-scrollbar {
